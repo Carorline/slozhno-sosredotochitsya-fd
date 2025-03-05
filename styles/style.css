@@ -39,13 +39,12 @@
 }
 
 .header {
+  block-size: 100vh;
+  min-block-size: 668px;
+  padding: clamp(10px, 2.6%, 20px);
   display: grid;
-  margin-block-end: 40px;
-}
-
-.decorated-zone {
-  padding: 10px;
   position: relative;
+  margin-block-end: 40px;
 }
 
 .decorated-zone::before {
@@ -231,6 +230,9 @@
 .footer {
   padding: 0 clamp(10px, 2.6%, 20px);
   display: grid;
+  block-size: 100vh;
+  min-block-size: 668px;
+  position: relative;
 }
 
 .footer__title {
@@ -245,10 +247,7 @@
 
   .header {
     margin-block-end: 60px;
-  }
-
-  .decorated-zone {
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .decorated-zone::before {
