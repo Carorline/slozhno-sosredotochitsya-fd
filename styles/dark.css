@@ -20,6 +20,10 @@
   --accent-text-color: #000028;
 }
 
+.theme-dark .page {
+background-color: #000028;
+}
+
 .theme-dark .section__title {
   color: var(--accent-color);
 }
