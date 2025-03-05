@@ -41,10 +41,13 @@
 .header {
   block-size: 100vh;
   min-block-size: 668px;
-  padding: clamp(10px, 2.6%, 20px);
   display: grid;
-  position: relative;
   margin-block-end: 40px;
+}
+
+.decorated-zone {
+  padding: 10px;
+  position: relative;
 }
 
 .decorated-zone::before {
@@ -247,7 +250,10 @@
 
   .header {
     margin-block-end: 60px;
-    /* padding: 20px; */
+  }
+
+  .decorated-zone {
+    padding: 20px;
   }
 
   .decorated-zone::before {
