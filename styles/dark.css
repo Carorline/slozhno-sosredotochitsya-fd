@@ -10,49 +10,16 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url(../images/cover-image-dark.png);
-  --main-font: "IBM Plex Mono", monospace;
-  --main-font-size: 18px;
-  --main-font-weight: 400px;
-  --main-line-height: 23.4px;
-  --h1-color: #DB00FF;
+  --h1-color: #db00ff;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
   --accent-text-color: #000028;
-}
-
-.theme-dark .page {
-background-color: #000028;
-}
-
-.theme-dark .section__title {
-  color: var(--accent-color);
-}
-
-.theme-dark .decorated-zone::before {
-  border: solid var(--accent-color);
-  border-width: 1px 1px 0 0;
-}
-
-.theme-dark .decorated-zone::after {
-  border: solid var(--accent-color);
-  border-width: 0 0 1px 1px;
-}
-
-.theme-dark .header__decorated-text {
-  display: block;
-}
-
-.theme-dark .header__theme-menu-button {
-  color: var(--accent-color);
-}
-.theme-dark .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
-}
-
-.theme-dark .header__theme-menu-button:hover {
-  border: 1px solid #FF007066;
-}
-
-.theme-dark .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--accent-color);
+  --background-color: var(--accent-text-color);
+  --section__title-color: var(--accent-color);
+  --decoration-border-color: solid var(--accent-color);
+  --decorated-text-display: block;
+  --menu-button-color: var(--accent-color);
+  --button_active-color: var(--accent-color);
+  --button_hover-color: #ff007066;
+  --button_focus-color: var(--accent-color);
 }
