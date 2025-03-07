@@ -4,7 +4,7 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   min-inline-size: 375px;
   background-image: var(--background-image);
-  background-color: #000028;
+  background-color: var(--background-color);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -119,7 +119,6 @@
   color: var(--menu-button-color);
   border: 1px solid transparent;
   padding: 1.5px 13px 4.5px;
-  /* height: 26px; */
   cursor: pointer;
 }
 
@@ -244,8 +243,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-align: center;
-  align-self: center; */
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
@@ -291,7 +288,7 @@
   }
 
   .header__text {
-    margin-block-start: 165px; /* 163 */
+    margin-block-start: 165px;
     margin-block-end: 163px;
     inline-size: 364px;
   }
