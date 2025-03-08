@@ -10,34 +10,34 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url(../images/cover-image-light.png);
-  --h1-color: #ffc2e6;
+  --main-title-color: #ffc2e6;
   --text-color: #353430;
   --accent-color: #ff8dcb;
   --accent-text-color: #353430;
   --background-color: #fff1f7;
-  --section__title-color: var(--text-color);
+  --title-color: var(--text-color);
   --decoration-border-color: solid var(--text-color);
   --decorated-text-display: none;
   --menu-button-color: var(--text-color);
-  --button_active-color: var(--text-color);
-  --button_hover-color: #32312d66;
-  --button_focus-color: var(--text-color);
+  --menu-button_active-color: var(--text-color);
+  --menu-button_hover-color: #32312d66;
+  --menu-button_focus-color: var(--text-color);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --background-image: url(../images/cover-image-light.png);
-    --h1-color: #ffc2e6;
+    --main-title-color: #ffc2e6;
     --text-color: #353430;
     --accent-color: #ff8dcb;
     --accent-text-color: #353430;
     --background-color: #fff1f7;
-    --section__title-color: var(--text-color);
+    --title-color: var(--text-color);
     --decoration-border-color: solid var(--text-color);
     --decorated-text-display: none;
     --menu-button-color: var(--text-color);
-    --button_active-color: var(--text-color);
-    --button_hover-color: #32312d66;
-    --button_focus-color: var(--text-color);
+    --menu-button_active-color: var(--text-color);
+    --menu-button_hover-color: #32312d66;
+    --menu-button_focus-color: var(--text-color);
   }
 }
