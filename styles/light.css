@@ -19,9 +19,9 @@
   --decoration-border-color: solid var(--text-color);
   --decorated-text-display: none;
   --menu-button-color: var(--text-color);
-  --menu-button_active-color: var(--text-color);
-  --menu-button_hover-color: #32312d66;
-  --menu-button_focus-color: var(--text-color);
+  --menu-button-active-color: var(--text-color);
+  --menu-button-hover-color: #32312d66;
+  --menu-button-focus-color: var(--text-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,8 +36,8 @@
     --decoration-border-color: solid var(--text-color);
     --decorated-text-display: none;
     --menu-button-color: var(--text-color);
-    --menu-button_active-color: var(--text-color);
-    --menu-button_hover-color: #32312d66;
-    --menu-button_focus-color: var(--text-color);
+    --menu-button-active-color: var(--text-color);
+    --menu-button-hover-color: #32312d66;
+    --menu-button-focus-color: var(--text-color);
   }
 }

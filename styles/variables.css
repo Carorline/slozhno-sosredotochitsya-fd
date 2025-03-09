@@ -17,7 +17,7 @@
   --decoration-border-color: solid var(--accent-color);
   --decorated-text-display: block;
   --menu-button-color: var(--accent-color);
-  --menu-button_active-color: var(--accent-color);
-  --menu-button_hover-color: #ff007066;
-  --menu-button_focus-color: var(--accent-color);
+  --menu-button-active-color: var(--accent-color);
+  --menu-button-hover-color: #ff007066;
+  --menu-button-focus-color: var(--accent-color); /*Запомню это на всю жизнь)*/
 }
